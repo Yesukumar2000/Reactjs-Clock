@@ -1,0 +1,31 @@
+.clock-container {
+    background-color: #47b622af;
+    border-radius: 16px;
+    padding: 30px 50px 40px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .heading {
+    color: rgb(5, 3, 3);
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-family: 'Roboto';
+    font-weight: 400;
+  }
+   
+  .time {
+    color: white;
+    font-size: 60px;
+    margin: 20px;
+    font-family: 'Roboto';
+  }
+
+  .date{
+    color: white;
+    font-size: 40px;
+    margin: 20px;
+    font-family: 'Roboto';
+     }
