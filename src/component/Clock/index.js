@@ -25,6 +25,7 @@ class Clock extends Component {
     const {date} = this.state
     return (
       <div className="clock-container">
+    
         <h1 className="heading">Clock</h1>
         <p className='date'> Date : {this.state.date.toLocaleDateString()}</p>
         <p className="time">{date.toLocaleTimeString()}</p>
