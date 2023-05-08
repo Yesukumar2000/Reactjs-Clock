@@ -1,6 +1,6 @@
 import {Component} from 'react'
 import Clock from './component/Clock'
-
+import 'react-calendar/dist/Calendar.css'
 import './App.css';
 
 class App extends Component {
